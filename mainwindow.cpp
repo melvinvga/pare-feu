@@ -71,7 +71,7 @@ void MainWindow::update()
                 //si ouverture lire les lignes
                 QString liste=fichierLigne.readLine();
                 //et les serparer dans une liste
-                QStringList listeElement=liste.split(" ",QString::SkipEmptyParts);
+                QStringList listeElement=liste.split(" ");
 
                 //affichage des informations
                 qDebug()<<"";
